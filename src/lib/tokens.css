@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+	/* Palette */
+	--ivory: #f8f4ed;
+	--ivory-deep: #efe9df;
+	--ivory-soft: #fdfbf7;
+	--ink: #191712;
+	--ink-soft: #2b281f;
+	--ink-mute: #6b6558;
+	--bronze: #ab7e36;
+	--bronze-dark: #8a632a;
+	--bronze-light: #cdae72;
+	--gold: #c9a24b;
+	--white: #ffffff;
+	--black: #000000;
+	--footer-bg: #14120e;
+	--footer-text: rgba(255, 255, 255, 0.75);
+	--footer-heading: #ffffff;
+
+	/* Dark mode surface overrides are applied via [data-theme='dark'] */
+
+	/* Typography */
+	--font-display: 'Playfair Display', serif;
+	--font-body: 'Lato', sans-serif;
+
+	/* Container */
+	--container: 1200px;
+	--container-wide: 1400px;
+
+	/* Spacing */
+	--space-1: 0.25rem;
+	--space-2: 0.5rem;
+	--space-3: 0.75rem;
+	--space-4: 1rem;
+	--space-5: 1.5rem;
+	--space-6: 2rem;
+	--space-7: 3rem;
+	--space-8: 4rem;
+	--space-9: 6rem;
+	--space-10: 8rem;
+
+	/* Radii */
+	--radius-sm: 4px;
+	--radius-md: 8px;
+	--radius-lg: 16px;
+	--radius-full: 999px;
+
+	/* Shadows */
+	--shadow-sm: 0 1px 3px rgba(25, 23, 18, 0.08);
+	--shadow-md: 0 4px 16px rgba(25, 23, 18, 0.1);
+	--shadow-lg: 0 16px 48px rgba(25, 23, 18, 0.18);
+
+	/* Transitions */
+	--ease: cubic-bezier(0.22, 1, 0.36, 1);
+	--speed: 0.35s;
+
+	/* Text */
+	--title-size: clamp(2.2rem, 5vw, 3.5rem);
+	--subtitle-size: clamp(1.4rem, 3vw, 2rem);
+	--body-size: 1.0625rem;
+	--small-size: 0.875rem;
+
+	--title-weight: 700;
+	--body-weight: 400;
+
+	--title-line: 1.15;
+	--body-line: 1.75;
+	--body-large-line: 1.85;
+}
